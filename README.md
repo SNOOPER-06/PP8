@@ -134,7 +134,9 @@ In this exercise you will:
 #### Reflection Questions
 
 1. **How do you pass a file name to a program using the `-i` and `-o` options?**
+   **Answer** Flags steuern das Verhalten eines Programms, z. B. „aktivieren“ Funktionen. Parameter liefern Werte zu Flags oder stehen allein.
 2. **What are typical use cases for parameters versus flags? How do the differ from one another?**
+   **Answer** Typische Anwendung für Flags, Einstellungen, Parameter für Datenverarbeitung.
 
 ---
 
@@ -187,6 +189,7 @@ In this exercise you will:
 #### Reflection Question
 
 * **Why is a run-to-completion (batch) approach often preferable to interactive input?**
+  **Answer** Ein Batch-Ansatz („Run-to-Completion“) ist oft besser, weil er automatisierbar, schneller, wiederholbar und weniger fehleranfällig ist. Interaktive Eingabe ist nur dann sinnvoll, wenn manuelles Eingreifen oder Entscheidungen nötig sind.
 
 ---
 
@@ -218,6 +221,8 @@ In this exercise you will:
 #### Reflection Question
 
 * **What is the difference between redirecting to stdin and explicitly opening a file with `fopen`?**
+  **Answer** Die Umleitung zu stdin (< datei.txt) ist  einfach und erfolgt über die Shell. Das Programm liest wie gewohnt von stdin, ohne zu wissen, dass es aus einer Datei kommt.
+fopen wird im Code gesteuert, volle Kontrolle über Dateioperationen, Fehlerprüfung möglich, mehrere Dateien gleichzeitig lesbar.
 
 ---
 
